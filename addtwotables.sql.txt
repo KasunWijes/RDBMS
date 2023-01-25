@@ -1,0 +1,6 @@
+# Write your MySQL query statement below
+
+SELECT P.firstName,P.lastName,A.city,A.state  #RETURN FROM SELECT KEYWORD
+FROM Person AS P    #refference for easyness
+LEFT JOIN Address AS A #LEFT JOIN TO TABLE
+ON P.personId=A.personId;   #CHECKWETHER FOREIGH id ARE EXCALTY SAME BY STRING
